@@ -4,7 +4,7 @@ Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://xia
 
 [[`Paper`]()] [[`Project`](https://github.com/fudan-zvg/PGC-3D)] [[`BibTeX`](#citing-pgc-3d)]
 
-https://github.com/fudan-zvg/PGC-3D/assets/84657631/132a1379-47d1-4213-9da6-03084bb4f8b6
+https://github.com/fudan-zvg/PGC-3D/assets/84657631/a8fc4416-bd82-4e18-a10c-802d6754fa5b
 
 **PGC** (Pixel-wise Gradient Clipping) introduces a refined method to adapt traditional gradient clipping. By focusing on pixel-wise gradient magnitudes, it retains vital texture details. This approach acts as a versatile **plug-in**, seamlessly complementing existing **SDS and LDM-based 3D generative models**. The result is a marked improvement in high-resolution 3D texture synthesis.
 
@@ -21,7 +21,7 @@ Incorporating the proficient and potent **PGC** implementation into SDXL guidanc
 #### Ours
 <img width="4096" alt="photo" src="assets/group_photo.png">
 
-https://github.com/fudan-zvg/PGC-3D/assets/84657631/462c8e5e-e2f6-4709-b864-379413df55ad
+https://github.com/fudan-zvg/PGC-3D/assets/84657631/a04cd157-6666-4fd3-b3a1-069f4ec8f255
 
 ## Tips for SDXL
 - Using [sdxl-vae-fp16-fix](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
