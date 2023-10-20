@@ -2,7 +2,7 @@
 
 Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://xiatian-zhu.github.io/), [Li Zhang](https://lzrobots.github.io/)
 
-[[`Paper`]()] [[`Project`](https://github.com/fudan-zvg/PGC-3D)] [[`BibTeX`](#citing-pgc-3d)]
+[[`Paper`](https://arxiv.org/abs/2310.12474)] [[`Project`](https://github.com/fudan-zvg/PGC-3D)] [[`BibTeX`](#citing-pgc-3d)]
 
 https://github.com/fudan-zvg/PGC-3D/assets/84657631/a8fc4416-bd82-4e18-a10c-802d6754fa5b
 
@@ -30,10 +30,10 @@ https://github.com/fudan-zvg/PGC-3D/assets/84657631/a04cd157-6666-4fd3-b3a1-069f
 ## Citing PGC-3D
 If you find our repository useful, please consider giving it a star ⭐ and citing our paper in your work:
 ```
-@article{karaev2023cotracker,
+@article{pan2023enhancing,
   title={Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping},
   author={Pan, Zijie and Lu, Jiachen and Zhu, Xiatian and Zhang, Li},
-  journal={arXiv},
+  journal={arXiv preprint arXiv 2310.12474},
   year={2023}
 }
 ```
