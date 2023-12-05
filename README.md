@@ -1,5 +1,5 @@
 # Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping
-### [[Paper]]([https://arxiv.org/abs/2310.12474](https://arxiv.org/abs/2310.12474)) 
+### [[Paper]](https://arxiv.org/abs/2310.12474)
 
 > [**Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping**](https://arxiv.org/abs/2310.12474),            
 > Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
