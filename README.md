@@ -1,10 +1,12 @@
 # Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping
+### [[Paper]]([https://arxiv.org/abs/2311.18561](https://arxiv.org/abs/2310.12474)) 
 
-Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://xiatian-zhu.github.io/), [Li Zhang](https://lzrobots.github.io/)
+> [**Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping**](https://arxiv.org/abs/2310.12474),            
+> Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
+> **Arxiv preprint**
 
-[[`Paper`](https://arxiv.org/abs/2310.12474)] [[`Project`](https://github.com/fudan-zvg/PGC-3D)] [[`BibTeX`](#citing-pgc-3d)]
+**Official implementation of "Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping".** 
 
-https://github.com/fudan-zvg/PGC-3D/assets/84657631/a8fc4416-bd82-4e18-a10c-802d6754fa5b
 
 **PGC** (Pixel-wise Gradient Clipping) introduces a refined method to adapt traditional gradient clipping. By focusing on pixel-wise gradient magnitudes, it retains vital texture details. This approach acts as a versatile **plug-in**, seamlessly complementing existing **SDS and LDM-based 3D generative models**. The result is a marked improvement in high-resolution 3D texture synthesis.
 
