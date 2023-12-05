@@ -27,7 +27,7 @@ https://github.com/fudan-zvg/PGC-3D/assets/84657631/a04cd157-6666-4fd3-b3a1-069f
 - Using [sdxl-vae-fp16-fix](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
 - [Controlnet](https://huggingface.co/diffusers/controlnet-depth-sdxl-1.0) may be important to make training easier to converge
 
-## Citing PGC-3D
+## BibTeX
 If you find our repository useful, please consider giving it a star ⭐ and citing our paper in your work:
 ```
 @article{pan2023enhancing,
