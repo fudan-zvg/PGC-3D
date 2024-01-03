@@ -1,5 +1,5 @@
 # Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping
-### [[Paper]](https://arxiv.org/abs/2310.12474)
+### [[Paper]](https://arxiv.org/abs/2310.12474) | [[Project]](https://pgc-3d.github.io/)
 
 > [**Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping**](https://arxiv.org/abs/2310.12474),            
 > Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
@@ -13,6 +13,9 @@
 With PGC, users can:
 - Address and mitigate gradient-related challenges common in LDM, elevating the quality of 3D generation.
 - Employ the [**SDXL**](https://github.com/Stability-AI/generative-models) approach, previously not adaptable for 3D generation.
+
+## News
+- We have tested the environment and common usage. This repo will offer an unified implementation for mesh optimization and reproduction of many SDS variants. Codes will be released soon.
 
 ## Results
 Incorporating the proficient and potent **PGC** implementation into SDXL guidance has led to notable advancements in 3D generation results.
