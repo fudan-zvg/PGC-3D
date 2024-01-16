@@ -5,18 +5,23 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB3PR2Y1TQ"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-XB3PR2Y1TQ');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-XB3PR2Y1TQ');
     </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>PGC-3D</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600' rel='stylesheet'
+          type='text/css'>
     <link rel="stylesheet" href="/assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
 
@@ -25,19 +30,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/icon16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <meta property="og:site_name" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping" />
-    <meta property="og:type" content="video.other" />
-    <meta property="og:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping" />
-    <meta property="og:description" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping" />
-    <meta property="og:url" content="https://fudan-zvg.github.io/PGC-3D/" />
-<!--    <meta property="og:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
+    <meta property="og:site_name"
+          content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
+    <meta property="og:type" content="video.other"/>
+    <meta property="og:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
+    <meta property="og:description"
+          content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
+    <meta property="og:url" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <!--    <meta property="og:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
 
-    <meta property="article:publisher" content="https://fudan-zvg.github.io/PGC-3D/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping" />
-    <meta name="twitter:description" content="PGC (Pixel-wise Gradient Clipping) introduces a refined method to adapt traditional gradient clipping. By focusing on pixel-wise gradient magnitudes, it retains vital texture details. This approach acts as a versatile plug-in, seamlessly complementing existing SDS and LDM-based 3D generative models." />
-    <meta name="twitter:url" content="https://fudan-zvg.github.io/PGC-3D/" />
-<!--    <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
+    <meta property="article:publisher" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
+    <meta name="twitter:description"
+          content="PGC (Pixel-wise Gradient Clipping) introduces a refined method to adapt traditional gradient clipping. By focusing on pixel-wise gradient magnitudes, it retains vital texture details. This approach acts as a versatile plug-in, seamlessly complementing existing SDS and LDM-based 3D generative models."/>
+    <meta name="twitter:url" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <!--    <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
     <!-- <meta name="twitter:site" content="" /> -->
 
     <script src="assets/js/video_comparison.js"></script>
@@ -53,122 +61,143 @@
     <div class="container" style="max-width: 768px;">
         <div class="row authors">
             <div class="col-sm">
-                <h5 class="text-center">Zijie Pan<sup>1</sup>, Jiachen Lu<sup>1</sup>, Xiatian Zhu<sup>2</sup>, Li Zhang<sup>1</sup></h5>
-                <h6 class="text-center"><sup>1</sup>Fudan University  <sup>2</sup>University of Surrey</h6>
+                <h5 class="text-center">Zijie Pan<sup>1</sup>, Jiachen Lu<sup>1</sup>, Xiatian Zhu<sup>2</sup>, Li Zhang<sup>1</sup>
+                </h5>
+                <h6 class="text-center"><sup>1</sup>Fudan University <sup>2</sup>University of Surrey</h6>
             </div>
         </div>
     </div>
-    </div>
+</div>
 
 <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h5 class="text-center"> <a href="https://arxiv.org/abs/2310.12474">Paper</a> | <a href="https://github.com/fudan-zvg/PGC-3D">Code (coming soon)</a>  </h5>
-            </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h5 class="text-center"><a href="https://arxiv.org/abs/2310.12474">Paper</a> | <a
+                    href="https://github.com/fudan-zvg/PGC-3D">Code (coming soon)</a></h5>
         </div>
     </div>
+</div>
 
-<hr class="divider" />
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                    <h2 class="title is-3">
-                        <center>Abstract</center>
-                    </h2>
-                <p>
-                    <!-- <strong> -->
-                    High-resolution 3D object generation remains a challenging task primarily due to the limited availability of comprehensive annotated training data. Recent advancements have aimed to overcome this constraint by harnessing image generative models, pretrained on extensive curated web datasets, using knowledge transfer techniques like Score Distillation Sampling (SDS).
-Efficiently addressing the requirements of high-resolution rendering often necessitates the adoption of latent representation-based models, such as the Latent Diffusion Model (LDM). In this framework, a significant challenge arises:
-To compute gradients for individual image pixels, it is necessary to backpropagate gradients from the designated latent space through the frozen components of the image model, such as the VAE encoder used within LDM. However, this gradient propagation pathway has never been optimized, remaining uncontrolled during training.
-We find that the unregulated gradients adversely affect the 3D model's capacity in acquiring texture-related information from the image generative model,
-leading to poor quality appearance synthesis.
-To address this overarching challenge, we propose an innovative operation termed Pixel-wise Gradient Clipping (PGC) designed for seamless integration into existing 3D generative models, thereby enhancing their synthesis quality. Specifically,
-we control the magnitude of stochastic gradients by clipping the pixel-wise gradients efficiently,
-while preserving crucial texture-related gradient directions.
-Despite this simplicity and minimal extra cost, extensive experiments demonstrate the efficacy of our PGC
-in enhancing the performance of existing 3D generative models
-for high-resolution object rendering.                </p>
-            </div>
+<hr class="divider"/>
+<div class="container" style="max-width: 768px;">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="title is-3">
+                <center>Abstract</center>
+            </h2>
+            <p>
+                <!-- <strong> -->
+                High-resolution 3D object generation remains a challenging task primarily due to the limited
+                availability of comprehensive annotated training data. Recent advancements have aimed to overcome this
+                constraint by harnessing image generative models, pretrained on extensive curated web datasets, using
+                knowledge transfer techniques like Score Distillation Sampling (SDS).
+                Efficiently addressing the requirements of high-resolution rendering often necessitates the adoption of
+                latent representation-based models, such as the Latent Diffusion Model (LDM). In this framework, a
+                significant challenge arises:
+                To compute gradients for individual image pixels, it is necessary to backpropagate gradients from the
+                designated latent space through the frozen components of the image model, such as the VAE encoder used
+                within LDM. However, this gradient propagation pathway has never been optimized, remaining uncontrolled
+                during training.
+                We find that the unregulated gradients adversely affect the 3D model's capacity in acquiring
+                texture-related information from the image generative model,
+                leading to poor quality appearance synthesis.
+                To address this overarching challenge, we propose an innovative operation termed Pixel-wise Gradient
+                Clipping (PGC) designed for seamless integration into existing 3D generative models, thereby enhancing
+                their synthesis quality. Specifically,
+                we control the magnitude of stochastic gradients by clipping the pixel-wise gradients efficiently,
+                while preserving crucial texture-related gradient directions.
+                Despite this simplicity and minimal extra cost, extensive experiments demonstrate the efficacy of our
+                PGC
+                in enhancing the performance of existing 3D generative models
+                for high-resolution object rendering. </p>
         </div>
     </div>
+</div>
 
 
-<hr class="divider" />
+<hr class="divider"/>
 
 <section class="section">
-<div class="container is-max-desktop" style="max-width: 768px;">
-    <h2 class="title is-3">
-        <center>With PGC, high-quality and high-resolution 3D models/textures can be generated from given text prompts.</center>
-    </h2>
-    <div class="row">
-        <div class="col">
-            <model-viewer src="assets\glb\car.glb"
-                environment-image="assets\images\grey.jpg" shadow-intensity="1"
-                orientation="180deg 180deg 180deg"
-                style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;" camera-controls
-                touch-action="pan-y">
-            </model-viewer>
-            <p style="text-align: center;">a wooden car</p>
-        </div>
-        <div class="col">
-            <model-viewer
-                src="assets\glb\horse.glb"
-                environment-image="assets\images\grey.jpg" shadow-intensity="1"
-                orientation="180deg 180deg 180deg"
-                style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;" camera-controls
-                touch-action="pan-y">
-            </model-viewer>
-            <p style="text-align: center;">an astronaut riding a horse</p>
+    <div class="container is-max-desktop" style="max-width: 768px;">
+        <h2 class="title is-3">
+            <center>With PGC, high-quality and high-resolution 3D models/textures can be generated from given text
+                prompts.
+            </center>
+        </h2>
+        <div class="row">
+            <div class="col">
+                <model-viewer src="assets\glb\car.glb"
+                              environment-image="assets\images\grey.jpg" shadow-intensity="1"
+                              orientation="180deg 180deg 180deg"
+                              style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
+                              camera-controls
+                              touch-action="pan-y">
+                </model-viewer>
+                <p style="text-align: center;">a wooden car</p>
+            </div>
+            <div class="col">
+                <model-viewer
+                        src="assets\glb\horse.glb"
+                        environment-image="assets\images\grey.jpg" shadow-intensity="1"
+                        orientation="180deg 180deg 180deg"
+                        style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
+                        camera-controls
+                        touch-action="pan-y">
+                </model-viewer>
+                <p style="text-align: center;">an astronaut riding a horse</p>
 
+            </div>
+            <div class="col">
+                <model-viewer
+                        src="assets\glb\panda.glb"
+                        environment-image="assets\images\grey.jpg" shadow-intensity="1"
+                        orientation="180deg 180deg 180deg"
+                        style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
+                        camera-controls
+                        touch-action="pan-y">
+                </model-viewer>
+                <p style="text-align: center;">A panda is dressed in armor, holding a spear in one hand and a shield in
+                    the other</p>
+            </div>
         </div>
-        <div class="col">
-            <model-viewer
-                src="assets\glb\panda.glb"
-                environment-image="assets\images\grey.jpg" shadow-intensity="1"
-                orientation="180deg 180deg 180deg"
-                style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;" camera-controls
-                touch-action="pan-y">
-            </model-viewer>
-            <p style="text-align: center;">A panda is dressed in armor, holding a spear in one hand and a shield in the other</p>
-        </div>
-    </div>
     </div>
 </section>
 
-<hr class="divider" />
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="title is-3">
-                    <center>Video</center>
-                </h2>
-                <video class="video lazy" loop controls playsinline style="width: 100%">
-                    <source
+<hr class="divider"/>
+<div class="container" style="max-width: 768px;">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="title is-3">
+                <center>Video</center>
+            </h2>
+            <video class="video lazy" loop controls playsinline style="width: 100%">
+                <source
                         src="assets\video\demo.mp4"
                         type="video/mp4">
-                </video>
-            </div>
+            </video>
         </div>
     </div>
+</div>
 
-<hr class="divider" />
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                    <h2 class="title is-3">
-                        <center>Comparisons and ablation studies</center>
-                    </h2>
-            </div>
+<hr class="divider"/>
+<div class="container" style="max-width: 768px;">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="title is-3">
+                <center>Comparisons and ablation studies</center>
+            </h2>
         </div>
     </div>
-        <div class="container" style="max-width: 768px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                        By optimizing SDF field and texture field as Fantasia3D with different LDMs, we show a marked improvement in high-resolution 3D texture synthesis using our proposed PGC.                  </p>
-                </div>
-            </div>
+</div>
+<div class="container" style="max-width: 768px;">
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+                By optimizing SDF field and texture field as Fantasia3D with different LDMs, we show a marked
+                improvement in high-resolution 3D texture synthesis using our proposed PGC. </p>
         </div>
+    </div>
+</div>
 
 <div class="container" style="max-width: 768px;">
     <div class="row">
@@ -198,7 +227,7 @@ for high-resolution object rendering.                </p>
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
                     <source src="assets/video/more_examples/a_blue_motorcycle_rgb.mp4"
-                        type="video/mp4">
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
@@ -206,7 +235,7 @@ for high-resolution object rendering.                </p>
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
                     <source src="assets/video/more_examples/a_blue_motorcycle_normal.mp4"
-                        type="video/mp4">
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
@@ -215,7 +244,7 @@ for high-resolution object rendering.                </p>
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
                     <source src="assets\video\more_examples\a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room_rgb.mp4"
-                        type="video/mp4">
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
@@ -223,14 +252,15 @@ for high-resolution object rendering.                </p>
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
                     <source src="assets\video\more_examples\a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room_normal.mp4"
-                        type="video/mp4">
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
         <div class="col">
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets\video\more_examples\a_zoomed_out_DSLR_photo_of_a_recliner_chair_rgb.mp4" type="video/mp4">
+                    <source src="assets\video\more_examples\a_zoomed_out_DSLR_photo_of_a_recliner_chair_rgb.mp4"
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
@@ -238,49 +268,49 @@ for high-resolution object rendering.                </p>
             <figure>
                 <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
                     <source src="assets\video\more_examples\a_zoomed_out_DSLR_photo_of_a_recliner_chair_normal.mp4"
-                        type="video/mp4">
+                            type="video/mp4">
                 </video>
             </figure>
         </div>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/cat.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/cat.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/cat.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/cat.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/cat.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/cat.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -291,42 +321,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/camera.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/camera.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/camera.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/camera.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/camera.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/camera.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -337,42 +367,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/dragon.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/dragon.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/dragon.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/dragon.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/dragon.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/dragon.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -383,42 +413,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/car.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/car.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/car.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/car.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/car.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/car.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -429,42 +459,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/man.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/man.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/man.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/man.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/man.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/man.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -475,42 +505,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/wolfman.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/wolfman.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/wolfman.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/wolfman.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/wolfman.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/wolfman.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -521,42 +551,42 @@ for high-resolution object rendering.                </p>
     </div>
 
     <div class="row">
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd/luffy.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source
                             src="assets/video/sd+pgc/luffy.mp4"
                             type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl/luffy.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
-            <div class="col">
-                <figure>
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source src="assets/video/sdxl+pgc/luffy.mp4"
-                            type="video/mp4">
-                    </video>
-                </figure>
-            </div>
+                </video>
+            </figure>
         </div>
+
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl/luffy.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+        <div class="col">
+            <figure>
+                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
+                    <source src="assets/video/sdxl+pgc/luffy.mp4"
+                            type="video/mp4">
+                </video>
+            </figure>
+        </div>
+    </div>
 
 
     <div class="row">
@@ -568,15 +598,16 @@ for high-resolution object rendering.                </p>
 
 </div>
 
- <!-- citing -->
+<!-- citing -->
+<hr class="divider"/>
 <div class="container">
     <div class="row ">
-      <div class="col-12">
-          <h3>
-              Citation
-          </h3>
-<!--          <hr style="margin-top:0px">-->
-              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+        <div class="col-12">
+            <h3>
+                BibTex
+            </h3>
+            <!--          <hr style="margin-top:0px">-->
+            <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
 <code>@article{pan2023enhancing,
   title={Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping},
   author={Pan, Zijie and Lu, Jiachen and Zhu, Xiatian and Zhang, Li},
@@ -585,14 +616,15 @@ for high-resolution object rendering.                </p>
 }
 </code>
               </pre>
-          <hr>
-      </div>
+            <hr>
+        </div>
     </div>
-  </div>
+</div>
 
-<hr class="divider" />
+<hr class="divider"/>
 <div class="container" style="max-width: 768px;">
-            <div class="text-center">Template from <a href="https://dreamfusion3d.github.io/">https://dreamfusion3d.github.io/</a></div>
+    <div class="text-center">Template from <a
+            href="https://dreamfusion3d.github.io/">https://dreamfusion3d.github.io/</a></div>
 </div>
 
 </body>
