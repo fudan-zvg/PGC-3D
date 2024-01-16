@@ -1,0 +1,44 @@
+tqdm
+rich
+ninja
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+opencv-python
+imageio
+imageio-ffmpeg
+
+torch
+torch-ema
+einops
+tensorboard
+tensorboardX
+
+# for grid_tcnn
+# git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+
+# for stable-diffusion
+huggingface_hub
+diffusers==0.20.0
+accelerate
+transformers
+git+https://github.com/facebookresearch/xformers.git@main#egg=xformers
+triton
+
+# for dmtet and mesh export
+xatlas
+trimesh
+PyMCubes
+pymeshlab
+git+https://github.com/NVlabs/nvdiffrast/
+open3d
+
+# for zero123
+carvekit-colab
+omegaconf
+pytorch-lightning
+taming-transformers-rom1504
+kornia
+git+https://github.com/openai/CLIP.git
