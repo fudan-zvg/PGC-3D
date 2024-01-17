@@ -3,7 +3,7 @@
 
 > [**Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping**](https://arxiv.org/abs/2310.12474),            
 > Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
-> **Arxiv preprint**
+> **ICLR 2024**
 
 **Official implementation of "Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping".** 
 
@@ -109,8 +109,6 @@ Incorporating the proficient and potent **PGC** implementation into SDXL guidanc
 #### Ours
 <img width="4096" alt="photo" src="assets/group_photo.png">
 
-https://github.com/fudan-zvg/PGC-3D/assets/84657631/a04cd157-6666-4fd3-b3a1-069f4ec8f255
-
 ## Tips for SDXL
 - Using [sdxl-vae-fp16-fix](https://huggingface.co/madebyollin/sdxl-vae-fp16-fix)
 - [Controlnet](https://huggingface.co/diffusers/controlnet-depth-sdxl-1.0) may be important to make training easier to converge
@@ -118,10 +116,10 @@ https://github.com/fudan-zvg/PGC-3D/assets/84657631/a04cd157-6666-4fd3-b3a1-069f
 ## BibTeX
 If you find our repository useful, please consider giving it a star ⭐ and citing our paper in your work:
 ```
-@article{pan2023enhancing,
+@inproceedings{yang2023gs4d,
   title={Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping},
   author={Pan, Zijie and Lu, Jiachen and Zhu, Xiatian and Zhang, Li},
-  journal={arXiv preprint arXiv 2310.12474},
-  year={2023}
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year={2024}
 }
 ```
