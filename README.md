@@ -115,7 +115,7 @@ Incorporating the proficient and potent **PGC** implementation into SDXL guidanc
 
 ## BibTeX
 If you find our repository useful, please consider giving it a star ⭐ and citing our paper in your work:
-```
+```bibtex
 @inproceedings{pan2024enhancing,
   title={Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping},
   author={Pan, Zijie and Lu, Jiachen and Zhu, Xiatian and Zhang, Li},
