@@ -71,7 +71,7 @@ class Rasterizer_mesh(nn.Module):
             self.texture_MLP = MLP(self.in_dim, out_dim, 32, 2, bias=True)
 
         if self.opt.bg_scenery:
-            img = cv2.imread("bg2.png", cv2.IMREAD_UNCHANGED)
+            img = cv2.imread("data/background.png", cv2.IMREAD_UNCHANGED)
             img = cv2.cvtColor(img[..., :3], cv2.COLOR_BGR2RGB) / 255
             precision_t = torch.float32  # only support float32
             img = torch.tensor(img, dtype=precision_t, device=self.device)

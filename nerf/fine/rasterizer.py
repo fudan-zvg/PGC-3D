@@ -33,7 +33,7 @@ class Rasterizer_MLP(torch.nn.Module):
         self.threshold = 99.9  # remove floaters
 
         if self.opt.bg_scenery:
-            img = cv2.imread("bg2.png", cv2.IMREAD_UNCHANGED)
+            img = cv2.imread("data/background.png", cv2.IMREAD_UNCHANGED)
             img = cv2.cvtColor(img[..., :3], cv2.COLOR_BGR2RGB) / 255
             precision_t = torch.float16 if opt.fp16 else torch.float32
             img = torch.tensor(img, dtype=precision_t, device=self.device)
