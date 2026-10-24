@@ -22,29 +22,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" href="/assets/css/Highlight-Clean.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/icon180.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/icon32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/icon16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/icon180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/icon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/icon16.png">
     <meta property="og:site_name"
           content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
     <meta property="og:type" content="video.other"/>
     <meta property="og:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
     <meta property="og:description"
           content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
-    <meta property="og:url" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <meta property="og:url" content="https://logosintelligencelab.github.io/PGC-3D/"/>
     <!--    <meta property="og:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
 
-    <meta property="article:publisher" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <meta property="article:publisher" content="https://logosintelligencelab.github.io/PGC-3D/"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping"/>
     <meta name="twitter:description"
           content="PGC (Pixel-wise Gradient Clipping) introduces a refined method to adapt traditional gradient clipping. By focusing on pixel-wise gradient magnitudes, it retains vital texture details. This approach acts as a versatile plug-in, seamlessly complementing existing SDS and LDM-based 3D generative models."/>
-    <meta name="twitter:url" content="https://fudan-zvg.github.io/PGC-3D/"/>
+    <meta name="twitter:url" content="https://logosintelligencelab.github.io/PGC-3D/"/>
     <!--    <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png" />-->
     <!-- <meta name="twitter:site" content="" /> -->
 
@@ -77,7 +75,7 @@
     <div class="row">
         <div class="col-md-12">
             <h5 class="text-center"><a href="https://arxiv.org/abs/2310.12474">Paper</a> | <a
-                    href="https://github.com/fudan-zvg/PGC-3D">Code</a></h5>
+                    href="https://github.com/LogosIntelligenceLab/PGC-3D">Code</a></h5>
         </div>
     </div>
 </div>
@@ -130,7 +128,7 @@
         </h4>
         <div class="row">
             <div class="col">
-                <model-viewer src="assets\glb\car.glb"
+                <model-viewer src="assets/glb/car.glb"
                               environment-image="assets\images\grey.jpg" shadow-intensity="1"
                               orientation="180deg 180deg 180deg"
                               style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
@@ -141,7 +139,7 @@
             </div>
             <div class="col">
                 <model-viewer
-                        src="assets\glb\horse.glb"
+                        src="assets/glb/horse.glb"
                         environment-image="assets\images\grey.jpg" shadow-intensity="1"
                         orientation="180deg 180deg 180deg"
                         style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
@@ -153,7 +151,7 @@
             </div>
             <div class="col">
                 <model-viewer
-                        src="assets\glb\panda.glb"
+                        src="assets/glb/panda.glb"
                         environment-image="assets\images\grey.jpg" shadow-intensity="1"
                         orientation="180deg 180deg 180deg"
                         style="width: 96%; background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"
@@ -176,7 +174,7 @@
             </h2>
             <video class="video lazy" loop controls playsinline style="width: 100%">
                 <source
-                        src="assets\video\demo.mp4"
+                        src="assets/video/demo.mp4"
                         type="video/mp4">
             </video>
         </div>
@@ -225,59 +223,7 @@
             <figcaption style="text-align: center;">+PGC</figcaption>
         </div>
     </div>
-    <div class="row">
-
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets/video/more_examples/a_blue_motorcycle_rgb.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets/video/more_examples/a_blue_motorcycle_normal.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets\video\more_examples\a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room_rgb.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets\video\more_examples\a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room_normal.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets\video\more_examples\a_zoomed_out_DSLR_photo_of_a_recliner_chair_rgb.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-        <div class="col">
-            <figure>
-                <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                    <source src="assets\video\more_examples\a_zoomed_out_DSLR_photo_of_a_recliner_chair_normal.mp4"
-                            type="video/mp4">
-                </video>
-            </figure>
-        </div>
-    </div>
-
+    <p class="text-center">Some supplementary comparison clips are currently unavailable.</p>
     <div class="row">
         <div class="col">
             <figure>
