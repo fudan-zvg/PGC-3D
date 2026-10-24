@@ -1,5 +1,5 @@
 # Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping
-### [[Paper]](https://arxiv.org/abs/2310.12474) | [[Project]](https://fudan-zvg.github.io/PGC-3D/)
+### [[Paper]](https://arxiv.org/abs/2310.12474) | [[Project]](https://logosintelligencelab.github.io/PGC-3D/)
 
 > [**Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping**](https://arxiv.org/abs/2310.12474),            
 > Zijie Pan, [Jiachen Lu](https://victorllu.github.io/), [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
@@ -19,7 +19,7 @@ This repo also offers an unified implementation for mesh optimization and reprod
 # Install
 
 ```bash
-git clone https://github.com/fudan-zvg/PGC-3D.git
+git clone https://github.com/LogosIntelligenceLab/PGC-3D.git
 cd PGC-3D
 ```
 
